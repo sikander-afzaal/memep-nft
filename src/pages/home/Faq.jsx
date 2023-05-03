@@ -3,34 +3,34 @@ import FaqBtn from "../../components/FaqBtn";
 const Faq = () => {
   const DATA = [
     {
-      question: "What is ZKASH Finance ($ZKASH)?",
+      question: "What is MEMEP Finance ($MEMEP)?",
       answer:
-        "ZKASH Finance is a multi-currency and multi-chain reward token. By buying and holding $ZKASH you are farming rewards and accumulating tokens supported by the ZKASH Finance protocol. These tokens are researched and reviewed by our crypto analysts.",
+        "MEMEP Finance is a multi-currency and multi-chain reward token. By buying and holding $MEMEP you are farming rewards and accumulating tokens supported by the MEMEP Finance protocol. These tokens are researched and reviewed by our crypto analysts.",
     },
     {
-      question: "What is the benefit of holding $ZKASH?",
+      question: "What is the benefit of holding $MEMEP?",
       answer:
-        "By simply holding $ZKASH, the Hamachi Finance protocol will distribute rewards by the platform directly to you.",
+        "By simply holding $MEMEP, the Hamachi Finance protocol will distribute rewards by the platform directly to you.",
     },
     {
       question: "How do I get my rewards?",
       answer:
-        "You'll be airdropped your rewards once you're first in queue. You can choose to enable Manual Claim or even 'GO ZKASH', this turns your rewards into $ZKASH.",
+        "You'll be airdropped your rewards once you're first in queue. You can choose to enable Manual Claim or even 'GO MEMEP', this turns your rewards into $MEMEP.",
     },
     {
       question: "How are rewards generated?",
       answer:
-        "Each buy and sell will be taxed 7%, which will only be used to buy tokens and redistribute to $ZKASH holders as rewards and provide liquidity to $ZKASH LP. (% tax subject to change).",
+        "Each buy and sell will be taxed 7%, which will only be used to buy tokens and redistribute to $MEMEP holders as rewards and provide liquidity to $MEMEP LP. (% tax subject to change).",
     },
     {
-      question: "How do projects benefit from $ZKASH?",
+      question: "How do projects benefit from $MEMEP?",
       answer:
-        "Projects benefit from $ZKASH by gaining exposure and increased unique holders who may not have ever heard of your project.",
+        "Projects benefit from $MEMEP by gaining exposure and increased unique holders who may not have ever heard of your project.",
     },
     {
       question: "Which tokens will be farmed?",
       answer:
-        "To begin, $ZKASH will begin farming tokens on Arbitrum with plans to go cross-chain and multi-chain to farm additional tokens. With our revolutionary technology we are going to bring mass exposure and rewards to holders via Hamachi Finance.",
+        "To begin, $MEMEP will begin farming tokens on Arbitrum with plans to go cross-chain and multi-chain to farm additional tokens. With our revolutionary technology we are going to bring mass exposure and rewards to holders via Hamachi Finance.",
     },
     {
       question: "What chains do you plan on expanding?",

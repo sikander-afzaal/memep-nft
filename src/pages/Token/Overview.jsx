@@ -36,7 +36,7 @@ const Overview = () => {
                   className="w-[36px] aspect-square object-contain"
                   alt=""
                 />
-                <p className="text-white">$ZKASH</p>
+                <p className="text-white">$MEMEP</p>
               </div>
               <div className="flex justify-start items-center gap-3">
                 <img
@@ -64,7 +64,7 @@ const Overview = () => {
         /> */}
           </RedBoxLayout>
           <RedBoxLayout>
-            <h3 className="text-primaryRed px-5 text-xl sm:text-2xl">$ZKASH</h3>
+            <h3 className="text-primaryRed px-5 text-xl sm:text-2xl">$MEMEP</h3>
             <p className="text-white sm:text-base text-xs px-5">
               $0.00057270 <span className="text-success">+20%</span>{" "}
               <span className="text-fail">-20%</span>
@@ -161,7 +161,7 @@ const Overview = () => {
                 <p className="text-white text-sm">$120.6K</p>
               </div>
               <div className="flex p-8 w-full bg-primaryRed justify-start items-start flex-col gap-5 mt-10 mb-5">
-                <p className="text-lg text-white">Your $ZKASH Balance</p>
+                <p className="text-lg text-white">Your $MEMEP Balance</p>
                 <div className="flex justify-between  items-center w-full gap-1">
                   <p className="text-white font-fifaks">Daily Rewards</p>
                   <p className="text-white text-sm">$8.4K</p>
@@ -201,7 +201,7 @@ const Overview = () => {
               12%
             </h3>
             <div className="flex justify-between  items-center w-full gap-1 px-5">
-              <p className="text-white font-fifaks">My ZKASH</p>
+              <p className="text-white font-fifaks">My MEMEP</p>
               <p className="text-white text-sm">$124.2 | day</p>
             </div>
             <div className="px-5 w-full mt-5">
@@ -217,7 +217,7 @@ const Overview = () => {
                       placeholder={0}
                     />
                   </p>
-                  <p className="text-white text-sm">ZKASH</p>
+                  <p className="text-white text-sm">MEMEP</p>
                 </div>
               </div>
             </div>

@@ -22,8 +22,8 @@ const Roadmap = () => {
         </div>
         <div className=" grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-y-7 gap-x-12">
           <RoadmapBox
-            title="ZKASH protocol"
-            desc="First Lego built on top of ZKASH Protocol"
+            title="MEMEP protocol"
+            desc="First Lego built on top of MEMEP Protocol"
           />
           <p className="self-center lg:row-auto row-start-1 justify-self-center lg:justify-self-start text-[45px] md:text-[90px] text-white  opacity-20">
             May
@@ -33,7 +33,7 @@ const Roadmap = () => {
           </p>
           <RoadmapBox
             title="MemeFi Development"
-            desc="More rewards for holders independent of ZKASH trade volume"
+            desc="More rewards for holders independent of MEMEP trade volume"
           />
           <RoadmapBox
             title="The Banker NFT Collection"
