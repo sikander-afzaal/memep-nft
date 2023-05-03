@@ -50,7 +50,7 @@ export const data = {
     {
       label: "Dataset 1",
       data: [15, 20, 16, 16, 12, 14, 18],
-      backgroundColor: "rgba(59 ,130 ,246 , 0.7)",
+      backgroundColor: "#C91414",
       borderColor: "rgba(0,0,0,0)",
       fill: true,
     },
