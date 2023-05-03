@@ -36,7 +36,12 @@ const About = () => {
   };
   const [selectedNum, setSelectedNum] = useState(1);
   return (
-    <div className="wrapper  xl:mt-10  py-[50px] md:py-[150px]">
+    <div className="wrapper  xl:mt-10  py-[50px] md:py-[150px] relative">
+      <img
+        src="/section-bg.png"
+        className="w-full absolute left-0 top-[5%] -z-10"
+        alt=""
+      />
       <div className="contain xl:flex-row flex-col  justify-between items-center gap-10">
         <div className="flex justify-start items-start flex-col gap-5 w-full">
           <h3 className="text-xl sm:text-2xl 2xl:text-3xl text-white font-normal 2xl:leading-[1.5]">

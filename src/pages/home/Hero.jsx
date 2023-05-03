@@ -2,7 +2,8 @@ import Button from "../../components/Button";
 
 const Hero = () => {
   return (
-    <div className="wrapper mt-[160px]">
+    <div className="wrapper mt-[160px] relative">
+      <div className="bg-primaryRed blur-[300px] w-full max-w-[363px] h-[363px] rounded-full absolute top-0 left-0 -z-10"></div>
       <div className="contain  flex-col text-center justify-center items-center gap-7 md:gap-16">
         <h2 className="max-w-[1368px] relative leading-[1.25] text-white text-lg sm:text-xl lg:text-3xl 2xl:text-[40px]  font-normal">
           Arbitrum's first

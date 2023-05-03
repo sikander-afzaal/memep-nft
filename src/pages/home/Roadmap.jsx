@@ -1,6 +1,7 @@
 const Roadmap = () => {
   return (
-    <div className="wrapper mt-[60px] sm:mt-[180px]">
+    <div className="wrapper mt-[60px] sm:mt-[180px] relative">
+      <div className="bg-primaryRed blur-[400px] w-full max-w-[564px] h-[564px] rounded-full absolute bottom-0 right-0 -z-10"></div>
       <div className="contain 2xl:flex-row flex-col gap-12 lg:gap-20 2xl:gap-10 justify-between items-center">
         <div className="flex justify-start items-center flex-col gap-2">
           <h3 className="uppercase text-white sm:text-5xl text-3xl font-normal">
