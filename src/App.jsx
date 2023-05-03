@@ -3,6 +3,7 @@ import Header from "./layout/Header";
 import Home from "./pages/home/Index";
 import Overview from "./pages/Token/Overview";
 import { useEffect } from "react";
+import Claim from "./pages/claim/Index";
 
 const App = () => {
   const { pathname } = useLocation();
@@ -16,6 +17,7 @@ const App = () => {
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<Overview />} path="/token" />
+        <Route element={<Claim />} path="/claim" />
       </Routes>
     </>
   );
