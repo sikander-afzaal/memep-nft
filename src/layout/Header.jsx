@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
   return (
-    <header className="wrapper fixed border-b border-solid border-[#4C4C4C] top-0 z-50 left-0">
+    <header className="wrapper fixed border-b bg-dark border-solid border-[#4C4C4C] top-0 z-50 left-0">
       {headerToggle && (
         <div
           onClick={() => setHeaderToggle(false)}

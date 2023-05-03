@@ -19,12 +19,10 @@ export default {
         aspidBlue: "#0287FF",
         success: "#00CF53",
         fail: "#FF0000",
+        text: "#A9B2B9",
       },
-      backgroundImage: {
-        sectionBg: "url('/section-bg.png')",
-      },
-      gridTemplateColumns: {
-        fluid: "repeat(auto-fit,minmax(400px,1fr))",
+      dropShadow: {
+        cardShadow: " 8px 8px 0px rgba(255, 0, 0, 0.5)",
       },
     },
   },

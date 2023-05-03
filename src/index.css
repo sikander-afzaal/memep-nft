@@ -25,3 +25,7 @@ body {
     @apply flex w-[90%] max-w-[1400px];
   }
 }
+.stroke {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}

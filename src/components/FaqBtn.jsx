@@ -18,7 +18,7 @@ const FaqBtn = ({ question, answer }) => {
     <div className="flex  justify-start overflow-hidden items-start flex-col w-full">
       <button
         onClick={() => setActive((prev) => !prev)}
-        className="flex bg-[#08080C] text-left gap-4 justify-between items-center px-8 border border-solid border-aspidBlue min-h-[75px] w-full"
+        className="flex bg-[#08080C] text-left gap-4 justify-between items-center px-8 border border-solid border-primaryRed min-h-[75px] w-full"
       >
         <h4 className="text-xs sm:text-sm lg:text-lg text-white">{question}</h4>
         <img
