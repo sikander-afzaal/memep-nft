@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "fifaks";
+  src: url("/public/fonts/Fifaks10Dev1.ttf");
+  font-weight: 400;
+}
+body {
+  font-family: "Press Start 2P";
+}
+
+@layer base {
+  body {
+    @apply bg-dark;
+  }
+}
+@layer utilities {
+  .wrapper {
+    @apply flex justify-start items-center flex-col w-full;
+  }
+  .contain {
+    @apply flex w-[90%] max-w-[1400px];
+  }
+}
